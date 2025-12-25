@@ -1,29 +1,43 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-function Button(props) {
+// function Button(props) {
+//   return (
+//     <button
+//       style={{
+//         padding: "8px 15px",
+//         border: "2px solid #4ECDC4",
+//         borderRadius: "6px",
+//         margin: "0 5px",
+//         cursor: "pointer",
+//         backgroundColor: props.filled ? "#4ECDC4" : "transparent",
+//         fontSize: "18px",
+//       }}
+//     >
+//       <Link
+//         to={props.to}
+//         style={{
+//           color: "white",
+//           textDecoration: "none",
+//         }}
+//       >
+//         {props.btn}
+//         {props.btn1}
+
+//       </Link>
+//        {props.text}
+//     </button>
+//   );
+// }
+
+// export default Button;
+
+function Button({ btn, onClick }) {
   return (
-    <button
-      style={{
-        padding: "8px 15px",
-        border: "2px solid #4ECDC4",
-        borderRadius: "6px",
-        margin: "0 5px",
-        cursor: "pointer",
-        backgroundColor: props.filled ? "#4ECDC4" : "transparent",
-        fontSize: "18px",
-      }}
-    >
-      <Link
-        to={props.to}
-        style={{
-          color: "white",
-          textDecoration: "none",
-        }}
-      >
-        {props.btn}
-      </Link>
+    <button onClick={onClick}>
+      {btn}
     </button>
   );
 }
 
 export default Button;
+

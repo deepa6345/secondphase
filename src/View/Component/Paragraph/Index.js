@@ -4,7 +4,7 @@ function Paragraph({ p }) {
   return (
     <p>
       {p}
-      <br />
+   
     </p>
   );
 }

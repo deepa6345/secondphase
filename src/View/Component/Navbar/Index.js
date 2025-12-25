@@ -1,18 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../Button/Index";
-import "./style.css";
 
 function Navbar() {
-  return (
-    <nav className="navbar">
-      <div className="logo">WebTech Practice</div>
+  const navigate = useNavigate();
 
-      <ul className="nav-links">
-        <Button btn="About" to="/about" className="btn" />
-        <Button btn="Services" to="/Services" className="btn" />
-        <Button btn="Theme" to="/Theme" className="btn" />
-        <Button btn="Login" to="/Login" className="btn" />
-        <Button btn="Signup" to="/Signup" className="btn1" />
-      </ul>
+  return (
+    <nav style={{ padding: "10px", display: "flex", gap: "10px" }}>
+      <Button onClick={() => navigate("/login")} btn="Login" />
+      <Button onClick={() => navigate("/signup")} btn="Signup" />
     </nav>
   );
 }
