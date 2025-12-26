@@ -13,6 +13,7 @@ import Services from "../../Component/Services/Index";
 
 
 
+
 function Landing() {
   return (
     <div>
@@ -24,7 +25,7 @@ function Landing() {
       <div><FullSlide /></div>
       <div> <About /></div>
       <div className="lservices"><Services /></div>
-      <div className="footer">  <Navigation /></div>
+  
 
 
     </div>

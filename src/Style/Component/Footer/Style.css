@@ -1,0 +1,43 @@
+/* .footer {
+  background-color: #0b2a66;
+  color: white;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  margin-top: auto;
+}
+
+
+
+.footer-left {
+  font-size: 14px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-right button {
+  background: transparent;
+  border: 1px solid #4fd1c5;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-right button:hover {
+  background-color: #4fd1c5;
+  color: #0b2a66;
+}
+
+.footer-right .signup {
+  background-color: #4fd1c5;
+  color: #0b2a66;
+  font-weight: bold;
+} */
